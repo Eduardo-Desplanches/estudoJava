@@ -1,3 +1,5 @@
+package Herança;
+
 public class Programador extends Pessoa implements Profissão{
     final String profissao = "programador";
     @Override
