@@ -18,7 +18,7 @@ public class Main {
         int c = a + b; // O(1) -> A execução do algoritmo leva o mesmo tempo, independentemente do tamanho da entrada.
 
         //O(n) -> O tempo de execução cresce linearmente com o tamanho da entrada. Exemplo: percorrer todos os elementos de uma lista.
-        //O(n²)  -> For dentro de um for (nextloop) -> um vez outro
+        //O(n²)  -> For dentro de um for (nestedloop)
         for (int i = 0; i < 205000 ; i++) {
             arrayList.add(i);
             linkedList.add(i);
